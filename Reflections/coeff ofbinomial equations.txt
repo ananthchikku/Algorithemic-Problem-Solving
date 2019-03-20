@@ -1,0 +1,15 @@
+Binomial coefficient can be calculated in three ways.
+
+2D array implementation:
+It is used when we have to calculate the binomial coeffcient of a large number and we will get results for all intermediate numbers.
+Time complexity is (n*k).
+
+1D array implementation:
+It is used when we need only the last result. 2D array is compressed in this case and only last row is obtained as answer.
+Time complexity is n.
+This is efficient in terms of space.
+
+Recurssion method:
+Used for calculating binomial coeff of small numbers.
+
+In dynamic approach values are pre-calculated and in recurssion entire calculation takes place.
