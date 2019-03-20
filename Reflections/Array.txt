@@ -1,0 +1,23 @@
+1)Segment tree:
+ *Time complexity = O(nlogn)
+ *Searching time = O(logn)
+ *Fetching time = O(nlogn)
+ *We use bottom up approach.    
+
+2)Look up table:
+  *Pre-processing time = O(n^2)
+  *Space complexity = O(n^2)
+  *Fetching time = O(1) (because we get the index of required num)
+  
+3)Square-root decomposition:
+ *Pre-processing time = O(n)
+ *Space complexity = O(root(n))
+ *Fetching time = O(root(n)) 
+ *If the question covers entire block the we can use this method. Else we need to go for Look up table method.
+  
+ 
+We can use lookup table and squareroot decomposition for dynamic array and static array. Segment tree can be used for only static array.
+
+Kadane's Algorithm to find the maximum subarray sum:
+If the subarray has all positive number then maximum sum is total sum of all elements, if all are negative then maximum sum is smalles absolute number.
+Time complexity = O(n)
