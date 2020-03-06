@@ -41,7 +41,7 @@ char * intToRoman(int num){
    
     rvereseArray(a,0,digit-1);
     
-    char *str = (char *)malloc(4* sizeof(char));
+    char *str = (char *)malloc(50* sizeof(char));
     
     memset(str,0,sizeof(str));
     
